@@ -1,0 +1,77 @@
+#root {
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Navbar start */
+.navbar {
+  margin: 20px;
+
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+.navbar,
+.offcanvas-body {
+  background-color: #d1282d;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+.navbar-brand .user-logo {
+  width: 40px;
+  border-radius: 50%;
+}
+.navbar-toggler,
+.btn-close {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler :focus {
+  box-shadow: none;
+  outline: none;
+}
+.nav-link {
+  font-weight: 600;
+  position: relative;
+}
+
+@media (min-width: 991px) {
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+/* Nabar End */
+
+/* Start of Banner */
+
+.banner {
+  height: 100vh;
+  width: 100%;
+}
+.banner-image {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+/* End of Banner */
