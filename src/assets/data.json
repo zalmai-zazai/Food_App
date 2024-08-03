@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "img": "./food-png-2951.png",
+    "title": "Italia chicken salad",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 16.99
+  },
+  {
+    "id": 2,
+    "img": "food-png-2968.png",
+    "title": "GiftCards Food",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 14.99
+  },
+  {
+    "id": 3,
+    "img": "food-png-2953.png",
+    "title": "humbergur",
+    "description": "with all Veggies",
+    "price": 19.99
+  },
+  {
+    "id": 4,
+    "img": "food-png-2957.png",
+    "title": "Italian Beef Salad",
+    "description": "Including salad, or Bigger Plate",
+    "price": 13.99
+  },
+  {
+    "id": 5,
+    "img": "food-salad-21.png",
+    "title": "Italian chicken salad",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 17.99
+  },
+  {
+    "id": 6,
+    "img": "food-png-2951.png",
+    "title": "Returant Food Fish",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 16.99
+  },
+  {
+    "id": 7,
+    "img": "food-png-2968.png",
+    "title": "GiftCards Food",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 18.99
+  },
+  {
+    "id": 8,
+    "img": "food-png-2953.png",
+    "title": "humbergur",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 12.99
+  },
+  {
+    "id": 9,
+    "img": "food-png-2957.png",
+    "title": "Italian Beef Salad",
+    "description": "Including salad, or Bigger Plate",
+    "price": 22.99
+  }
+]

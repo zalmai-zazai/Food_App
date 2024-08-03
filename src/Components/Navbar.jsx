@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/resturantLogo.png';
+import cartImg from '../assets/cart.png';
 
 const Navbar = () => {
   return (
@@ -55,6 +56,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        <a className="navbar-brand " href="#">
+          <img className="cart-img" src={cartImg} alt="" />
+        </a>
         <a className="navbar-brand " href="#">
           <img
             className="user-logo"

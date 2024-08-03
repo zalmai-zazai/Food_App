@@ -12,6 +12,7 @@
 
   border-radius: 15px;
   padding: 0.5rem;
+  box-shadow: rgb(16, 17, 16) 1px 1px 10px 4px;
 }
 .navbar,
 .offcanvas-body {
@@ -25,6 +26,9 @@
 .navbar-brand .user-logo {
   width: 40px;
   border-radius: 50%;
+}
+.navbar-brand .cart-img {
+  width: 40px;
 }
 .navbar-toggler,
 .btn-close {
@@ -73,5 +77,119 @@
   height: 100vh;
   z-index: 0;
 }
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.banner-food-items {
+}
+.banner-food-items .food1,
+.food2,
+.food3 {
+  width: 270px;
+  position: absolute;
+  top: 190px;
+  left: -55px;
+  -webkit-animation: spin 30s linear infinite;
+  overflow: hidden;
+}
+.food2 {
+  left: 120px;
+  top: 227px;
+}
+.food3 {
+  left: 88px;
+  top: 124px;
+}
+.banner-headings {
+  position: absolute;
+  top: 250px;
+  color: white;
+  left: 395px;
+  text-shadow: #191313 2px 8px 11px;
+}
+.banner-headings b {
+  font-size: 3rem;
+}
 
 /* End of Banner */
+
+/* Start of About */
+.about-container {
+  padding: 30px;
+  max-width: 100%;
+  margin: 2rem auto;
+  position: relative;
+  text-align: start;
+}
+.about-headings {
+  text-align: center;
+}
+
+.about-headings h2 {
+  cursor: pointer;
+  margin-bottom: 30px;
+  color: #d1282d;
+  font-weight: bold;
+  text-shadow: #191313 2px 8px 30px;
+}
+.about-headings p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: #191313 1px 10px 30px;
+}
+
+.about-container h5 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.about-container ul li strong {
+  color: #333;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media-links a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  text-decoration: underline;
+}
+
+/* End of About */
+
+/* Start of FoodList */
+.food-list {
+  height: 100vh;
+  width: 100%;
+}
+.food-list h2 {
+  color: #d1282d;
+  font-weight: bold;
+  text-shadow: #191313 2px 8px 20px;
+}
+/* End of FoodList */
