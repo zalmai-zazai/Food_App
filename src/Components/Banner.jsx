@@ -5,7 +5,7 @@ import bannerFood2 from '../assets/broccoli-beef-black-bowl.png';
 import bannerFood3 from '../assets/oc-bowl-2-black.png';
 const Banner = () => {
   return (
-    <div className="banner">
+    <div className="banner" id="home">
       <img className="banner-image" src={bannerImg} alt="" />
       <div className="row">
         <div className="banner-food-items col-6">

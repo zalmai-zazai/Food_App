@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "img": "https://firehouseclarington.com/cdn/shop/files/italianSalad.png?v=1709003030",
+
+    "title": "Italia chicken salad",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 16.99
+  },
+  {
+    "id": 2,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh-8iQbINBg35p1Hd4QXLLWtkRw16shXLWAg&s",
+    "title": "GiftCards Food",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 14.99
+  },
+  {
+    "id": 3,
+    "img": "https://static.vecteezy.com/system/resources/previews/023/254/633/original/delicious-hamburger-isolated-on-transparent-background-png.png",
+    "title": "humbergur",
+    "description": "with all Veggies",
+    "price": 19.99
+  },
+  {
+    "id": 4,
+    "img": "https://png.pngtree.com/png-vector/20240124/ourmid/pngtree-steak-bbq-salad-png-image_11483960.png",
+    "title": "Italian Beef Salad",
+    "description": "Including salad, or Bigger Plate",
+    "price": 13.99
+  },
+  {
+    "id": 5,
+    "img": "https://png.pngtree.com/png-vector/20240129/ourlarge/pngtree-grilled-chicken-salad-png-generative-ai-png-image_11560081.png",
+    "title": "Italian chicken salad",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 17.99
+  },
+  {
+    "id": 6,
+    "img": "https://png.pngtree.com/png-clipart/20210912/original/pngtree-home-cooking-spicy-fish-png-image_6717728.jpg",
+    "title": "Returant Food Fish",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 16.99
+  },
+  {
+    "id": 7,
+    "img": "https://png.pngtree.com/png-vector/20240123/ourlarge/pngtree-risotto-italian-food-png-image_11482621.png",
+    "title": "italian rice",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 18.99
+  },
+  {
+    "id": 8,
+    "img": "https://daralafghani.ae/wp-content/uploads/2023/01/afghani-burger.jpg",
+    "title": "Afghani burger",
+    "description": "Get a Bowl, or Bigger Plate",
+    "price": 12.99
+  },
+  {
+    "id": 9,
+    "img": "https://static.vecteezy.com/system/resources/thumbnails/036/627/204/small_2x/ai-generated-mouthwatering-lamb-gyro-on-transparent-background-png.png",
+    "title": "Germen beef gyro",
+    "description": "Including salad, or Bigger Plate",
+    "price": 22.99
+  }
+]

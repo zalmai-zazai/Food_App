@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/resturantLogo.png';
 import cartImg from '../assets/cart.png';
+import { Nav } from 'react-bootstrap';
 
 const Navbar = () => {
   return (
@@ -30,28 +31,28 @@ const Navbar = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
               <li className="nav-item">
-                <a
+                <Nav.Link
                   className="nav-link mx-lg-2 active"
                   aria-current="page"
-                  href="#"
+                  href="#home"
                 >
                   Home
-                </a>
+                </Nav.Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">
+                <Nav.Link className="nav-link mx-lg-2" href="#about">
                   About
-                </a>
+                </Nav.Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">
+                <Nav.Link className="nav-link mx-lg-2" href="#menu">
                   Service
-                </a>
+                </Nav.Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-lg-2" href="#">
+                <Nav.Link className="nav-link mx-lg-2" href="#contact">
                   Contact
-                </a>
+                </Nav.Link>
               </li>
             </ul>
           </div>
