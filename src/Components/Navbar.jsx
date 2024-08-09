@@ -23,7 +23,7 @@ const Navbar = () => {
           >
             <div className="offcanvas-header">
               <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
+                My Resturant
               </h5>
               <button
                 type="button"
