@@ -1,24 +1,37 @@
-import React, { useState, createContext, useEffect } from 'react';
-
-const URL = 'https://api.spoonacular.com/recipes/complexSearch';
-const apiKey = 'dd84a805a14b40b9b8ad08c3fff463e6';
+import React, { createContext, useEffect, useReducer } from 'react';
+import FoodReducer from '../Reducers/FoodReducer';
 
 export const FoodsContext = createContext();
 const FoodContextProvider = ({ children }) => {
-  //   const [searchData, setSearchData] = useState('');
-  //   const [apiData, setApiData] = useState([]);
+  const [cart, dispatch] = useReducer(FoodReducer, []);
 
-  //   useEffect(() => {
-  //     async function fetchFood() {
-  //       const res = await fetch(`${URL}?apiKey=${apiKey}`);
-  //       const data = await res.json();
+  useEffect(() => {}, [cart]);
 
-  //       setApiData(data.results);
-  //     }
-  //     fetchFood();
-  //   });
-
-  return <FoodsContext.Provider value={{}}>{children}</FoodsContext.Provider>;
+  function addItem(foodId, foodTitle, foodImage, foodPrice) {
+    dispatch({
+      type: 'ADD_ITEM',
+      payload: {
+        foodId,
+        foodTitle,
+        foodImage,
+        foodPrice,
+      },
+    });
+  }
+  function removeItem(foodId) {
+    dispatch({
+      type: 'REMOVE_ITEM',
+      payload: foodId,
+    });
+  }
+  {
+    console.log(cart);
+  }
+  return (
+    <FoodsContext.Provider value={{ addItem, removeItem, cart }}>
+      {children}
+    </FoodsContext.Provider>
+  );
 };
 
 export default FoodContextProvider;

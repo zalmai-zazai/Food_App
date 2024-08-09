@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import foodImage from '../assets/food-png-2951.png';
+import { FoodsContext } from '../Context/FoodContext';
 
 const Food_Item = ({ food }) => {
+  const { addItem } = useContext(FoodsContext);
+
   return (
     <div className="card  col-md-4 food-item">
       <img
@@ -15,12 +18,12 @@ const Food_Item = ({ food }) => {
         <p className="card-text">${food.price}</p>
         <div className="buttons">
           <a
-            href="#"
             className="btn"
             style={{
               backgroundColor: '#d1282d',
               color: 'white',
             }}
+            onClick={() => addItem(food.id, food.title, food.img, food.price)}
           >
             Add to Cart
           </a>
