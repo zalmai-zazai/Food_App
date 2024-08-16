@@ -8,7 +8,7 @@ const FoodList = ({}) => {
     <div className="food-list" id="menu">
       <h2>Choose Your Favorit Meal To Start Your Order</h2>
 
-      <div className=" container mx-5 mt-5 food-list-container row ">
+      <div className="  mt-5 food-list-container row ">
         {data.map((food) => (
           <Food_Item key={food.id} food={food} />
         ))}
